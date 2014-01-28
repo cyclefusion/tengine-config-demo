@@ -252,7 +252,7 @@ fi
 - 以Shared模式添加内置模块 http_sub_module、http_lua_module
 - 添Shared模式添加第三方模块 echo-nginx-module
 - 将 ngx_realtime_request_module 改为动态加载
-- 去掉 Vendor 相关标签
+- 去掉 Vendor 相关标签，升级到Tengine-1.5.2
 
 * Mon Jan 20 2014 @ 15:29:14 # hukai
 - 增加隐藏文件、目录的过滤，比如 .bash_history 
@@ -266,7 +266,7 @@ fi
 - 打上安全补丁，并升级最新版本 ： http://nginx.org/download/patch.2013.space.txt
 
 * Mon May 20 2013 @ 15:11:24 # hukai
-- 默认重定向到毒霸网址导航
+- 默认重定向到网址导航
 - Mime增加Json类型
 
 * Wed May 15 2013 @ 16:52:33  # luhuiyong
